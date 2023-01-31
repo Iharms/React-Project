@@ -1,0 +1,11 @@
+.threadTitle {
+  padding: 0 20px;
+  margin: 0 0 15px;
+}
+
+@media all and (min-width: 1024px) {
+  .threadTitle {
+    margin: 0;
+    padding: 0;
+  }
+}

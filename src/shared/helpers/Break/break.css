@@ -1,0 +1,158 @@
+.s0 {
+  margin: 0;
+}
+.s4 {
+  margin: 0 4px 0 0;
+}
+.s8 {
+  margin: 0 8px 0 0;
+}
+.s12 {
+  margin: 0 12px 0 0;
+}
+.s16 {
+  margin: 0 16px 0 0;
+}
+.s20 {
+  margin: 0 20px 0 0;
+}
+
+.inline {
+  display: inline;
+}
+
+.bottom.s4 {
+  margin: 4px 0 0;
+}
+.bottom.s8 {
+  margin: 8px 0 0;
+}
+.bottom.s12 {
+  margin: 12px 0 0;
+}
+.bottom.s16 {
+  margin: 16px 0 0;
+}
+.bottom.s20 {
+  margin: 20px 0 0;
+}
+
+@media all and (max-width: 1023px) {
+  .mobile_s0 {
+    margin: 0;
+  }
+  .mobile_s4 {
+    margin: 0 4px 0 0;
+  }
+  .mobile_s8 {
+    margin: 0 8px 0 0;
+  }
+  .mobile_s12 {
+    margin: 0 12px 0 0;
+  }
+  .mobile_s16 {
+    margin: 0 16px 0 0;
+  }
+  .mobile_s20 {
+    margin: 0 20px 0 0;
+  }
+
+  .bottom.mobile_s0 {
+    margin: 0;
+  }
+  .bottom.mobile_s4 {
+    margin: 0 0 4px;
+  }
+  .bottom.mobile_s8 {
+    margin: 0 0 8px;
+  }
+  .bottom.mobile_s12 {
+    margin: 0 0 12px;
+  }
+  .bottom.mobile_s16 {
+    margin: 0 0 16px;
+  }
+  .bottom.mobile_s20 {
+    margin: 0 0 20px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1539px) {
+  .tablet_s0 {
+    margin: 0;
+  }
+  .tablet_s4 {
+    margin: 0 4px 0 0;
+  }
+  .tablet_s8 {
+    margin: 0 8px 0 0;
+  }
+  .tablet_s12 {
+    margin: 0 12px 0 0;
+  }
+  .tablet_s16 {
+    margin: 0 16px 0 0;
+  }
+  .tablet_s20 {
+    margin: 0 20px 0 0;
+  }
+
+  .bottom.tablet_s0 {
+    margin: 0;
+  }
+  .bottom.tablet_s4 {
+    margin: 0 0 4px;
+  }
+  .bottom.tablet_s8 {
+    margin: 0 0 8px;
+  }
+  .bottom.tablet_s12 {
+    margin: 0 0 12px;
+  }
+  .bottom.tablet_s16 {
+    margin: 0 0 16px;
+  }
+  .bottom.tablet_s20 {
+    margin: 0 0 20px;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .desktop_s0 {
+    margin: 0;
+  }
+  .desktop_s4 {
+    margin: 0 4px 0 0;
+  }
+  .desktop_s8 {
+    margin: 0 8px 0 0;
+  }
+  .desktop_s12 {
+    margin: 0 12px 0 0;
+  }
+  .desktop_s16 {
+    margin: 0 16px 0 0;
+  }
+  .desktop_s20 {
+    margin: 0 20px 0 0;
+  }
+
+  .bottom.desktop_s0 {
+    margin: 0;
+  }
+  .bottom.desktop_s4 {
+    margin: 0 0 4px;
+  }
+  .bottom.desktop_s8 {
+    margin: 0 0 8px;
+  }
+  .bottom.desktop_s12 {
+    margin: 0 0 12px;
+  }
+  .bottom.desktop_s16 {
+    margin: 0 0 16px;
+  }
+  .bottom.desktop_s20 {
+    margin: 0 0 20px;
+  }
+}

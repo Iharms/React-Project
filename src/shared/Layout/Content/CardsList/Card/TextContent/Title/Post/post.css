@@ -1,0 +1,60 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  height: 95%;
+  transform: translate(-50%, 0);
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #FFFFFF;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  min-height: 160px;
+  width: 960px;
+  padding: 50px 60px 45px;
+  margin-bottom: 25px;
+}
+
+.textContent {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.title {
+
+}
+
+.img {
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.menuButtons {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.commonButton {
+  display: flex;
+  align-content: center;
+  gap: 6px;
+}
+
+.content {
+  overflow-y: auto;
+}
+
+.close {
+  align-self: flex-end;
+  width: 40px;
+  height: 40px;
+  margin: -24px;
+  color: #000
+}

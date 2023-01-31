@@ -1,0 +1,25 @@
+.actionButtons {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 16px;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 31px;
+  background-color: var(--greyC4);
+}
+.button svg path {
+  fill: var(--white);
+}
+
+@media all and (min-width: 1024px) {
+  .actionButtons {
+    display: none;
+  }
+}

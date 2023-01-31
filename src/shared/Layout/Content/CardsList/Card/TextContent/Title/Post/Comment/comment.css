@@ -1,0 +1,45 @@
+.comment {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 20px;
+}
+
+.metaData {
+  padding-top: 4px;
+}
+
+.menuButtons {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.commonButton {
+  display: flex;
+  align-content: center;
+  gap: 6px;
+}
+
+.mainLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.verticalLine {
+  position: relative;
+  height: 100%;
+}
+.verticalLine::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 1px;
+  transform: translateX(-1px);
+  background-color: var(--greyC4);
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  border: 1px solid var(--greyC4);
+}

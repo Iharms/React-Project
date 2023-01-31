@@ -1,0 +1,55 @@
+.metaData {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.userLink {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 20px;
+  margin: 0 8px 0 0;
+}
+
+.avatar {
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  margin: 0 8px 0 0;
+}
+
+.username {
+  position: relative;
+  /*z-index: 1;*/
+}
+
+.published {
+  margin-right: 8px;
+}
+
+.publishedLabel {
+  display: none;
+}
+
+.createdAt, .createdAt span {
+  color: var(--grey99);
+}
+
+@media all and (min-width: 1024px) {
+  .metaDataReversed {
+    margin-bottom: 0;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+  }
+
+  .publishedLabel {
+    display: inline;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .userLink:hover a {
+    text-decoration: underline;
+  }
+}

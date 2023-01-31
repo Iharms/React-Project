@@ -1,0 +1,13 @@
+.controls {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media all and (min-width: 1024px) {
+  .controls {
+    order: 3;
+    flex: 0 0;
+  }
+}

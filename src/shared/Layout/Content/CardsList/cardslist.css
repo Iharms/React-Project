@@ -1,0 +1,24 @@
+.cardsList {
+  padding: 0 0 40px;
+}
+
+.center {
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.moreButton{
+  display: block;
+  margin: auto;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+@media all and (min-width: 1024px) {
+  .cardsList {
+    padding: 40px 0;
+  }
+}
